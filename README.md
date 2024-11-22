@@ -1,16 +1,24 @@
-🌐 Infrastructure Automation Project 🚀
-📖 Overview
+# 🌐 Infrastructure Automation Project 🚀
 
-Welcome to the Infrastructure Automation Project! This repository contains a complete Continuous Integration/Continuous Deployment (CI/CD) pipeline leveraging Jenkins and Docker. The goal of this project is to streamline application deployment, improve reliability, and create an automated workflow that simplifies infrastructure management.
-📋 Features
+## 📖 Overview
 
-✨ CI/CD Pipeline: Automates the build, test, and deployment process using Jenkins.
-🐳 Docker Integration: Containerizes the application for consistent environments across development, testing, and production.
-📦 Docker Compose: Simplifies local development and multi-container applications.
-🛠️ Custom Scripts: Includes helper scripts for automation and cleanup tasks.
-📂 Modular Design: Organized file structure for scalability and maintainability.
-📂 Project Structure
+Welcome to the **Infrastructure Automation Project**! This repository contains a complete Continuous Integration/Continuous Deployment (CI/CD) pipeline leveraging **Jenkins** and **Docker**. The goal of this project is to streamline application deployment, improve reliability, and create an automated workflow that simplifies infrastructure management.
 
+---
+
+## 📋 Features
+
+- ✨ **CI/CD Pipeline**: Automates the build, test, and deployment process using Jenkins.  
+- 🐳 **Docker Integration**: Containerizes the application for consistent environments across development, testing, and production.  
+- 📦 **Docker Compose**: Simplifies local development and multi-container applications.  
+- 🛠️ **Custom Scripts**: Includes helper scripts for automation and cleanup tasks.  
+- 📂 **Modular Design**: Organized file structure for scalability and maintainability.
+
+---
+
+## 📂 Project Structure
+
+```plaintext
 infrastructure-automation/
 ├── Jenkinsfile            # Jenkins pipeline definition
 ├── Dockerfile             # Docker image configuration
@@ -68,16 +76,16 @@ Run the container:
 
 Run with Docker Compose:
 
-    Docker Compose simplifies running multiple containers, e.g., when using additional services. Run:
+Docker Compose simplifies running multiple containers, e.g., when using additional services. Run:
 
-        docker-compose up --build
+    docker-compose up --build
 
-        This will automatically build and run the application using Docker Compose.
+    This will automatically build and run the application using Docker Compose.
 
 📜 Jenkins CI/CD Pipeline
 
     Setup Jenkins:
-        Install necessary Jenkins plugins: Docker, Pipeline, Git.
+        Install the following necessary Jenkins plugins: Docker, Pipeline, Git.
         Create a new pipeline project in Jenkins.
         Use the Jenkinsfile from this repository to configure the pipeline.
 
@@ -119,7 +127,6 @@ Push to the branch:
 📜 License
 
 This project is licensed under the MIT License.
-
 📬 Contact
-Inspired by the need for reliable and efficient CI/CD pipelines.
-Special thanks to the open-source community for amazing tools like Jenkins and Docker.
+
+Inspired by the need for reliable and efficient CI/CD pipelines. Special thanks to the open-source community for amazing tools like Jenkins and Docker.
