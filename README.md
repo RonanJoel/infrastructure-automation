@@ -29,14 +29,16 @@ infrastructure-automation/
 ├── docker-compose.yml     # Docker Compose configuration for local environments
 └── README.md              # Project documentation
 
-🛠️ Technologies Used
+```
+
+## 🛠️ Technologies Used
 
     Jenkins: Automates the CI/CD process.
     Docker: Builds, runs, and deploys containerized applications.
     Node.js: Sample application used in this project.
     Shell Scripts: Simplify repetitive tasks such as setup and cleanup.
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally.
 Prerequisites
